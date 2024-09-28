@@ -1,0 +1,26 @@
+package bt;
+import java.util.Scanner;
+public class bai5 {
+public static void main(String[] args) {
+	String a;
+	String b;
+	Scanner sc = new Scanner(System.in);
+	a = sc.nextLine();
+	b =sc.nextLine();
+	System.out.println(a);
+	System.out.println(b);
+	double num1 = Double.parseDouble(a);
+	double num2 = Double.parseDouble(b);
+	double sum = num1 + num2;
+	double difference = num1 - num2;
+	double product = num1 * num2;
+	double  quotient = -1;
+	if(num2 != 0) {
+		quotient = num1 / num2;
+	}
+	System.out.println(sum);
+	System.out.println(difference);
+	System.out.println(product);
+	System.out.println(quotient);
+}
+}
